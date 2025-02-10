@@ -44,7 +44,7 @@ test('Get Started', async ({page}) => {
 
     const tocArray = await tocLocator.allTextContents();
 
-    console.log('Table of Contents:', tocArray);
+    //console.log('Table of Contents:', tocArray);
 
     const expectedArray = ['Introduction', 'Text input', 'Checkboxes and radio buttons', 'Select options',
       'Mouse click', 'Type characters', 'Keys and shortcuts', 'Upload files', 'Focus element', 'Drag and Drop',
